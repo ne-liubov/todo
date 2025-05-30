@@ -1,0 +1,78 @@
+.footer-controls {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 10px 40px;
+}
+
+.filter {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  flex: 1;
+}
+
+.filter-list-btn {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+
+.filter-btn {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  color: #fdfdfd;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: 250ms ease-in-out;
+}
+
+.filter-btn:hover {
+  transform: scale(1.1);
+}
+
+.task-count {
+  border-radius: 50%;
+  padding: 2px 8px;
+  font-size: 12px;
+  line-height: 1.4;
+  display: inline-block;
+  color: #fdfdfd;
+}
+
+.trash-icon {
+  stroke: #66015a;
+  transition: all 0.3s ease-in-out;
+}
+
+.trash-icon:hover {
+  transform: scale(1.1);
+}
+
+.clear-btn {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .filter-list-btn {
+    gap: 12px;
+  }
+
+  .filter-btn {
+    font-size: 10px;
+  }
+
+  .task-count {
+    font-size: 8px;
+    padding: 2px 6px;
+  }
+}

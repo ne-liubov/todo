@@ -1,0 +1,15 @@
+export const refs = {
+  themeToggleBtn: document.querySelector('.theme-toggle-button'),
+  headerForm: document.querySelector('.header-form'),
+  taskInput: document.querySelector('.header-form-input'),
+  headerFormBtn: document.querySelector('.header-form-btn'),
+  emptyList: document.querySelector('.empty-list'),
+  tasksList: document.querySelector('.tasks-list'),
+  filterBtnAll: document.querySelector('.filter-btn-all'),
+  allCount: document.querySelector('.all-count'),
+  filterBtnCompleted: document.querySelector('.filter-btn-completed'),
+  completedCount: document.querySelector('.completed-count'),
+  filterBtnActive: document.querySelector('.filter-btn-active'),
+  activeCount: document.querySelector('.active-count'),
+  clearBtn: document.querySelector('.clear-btn'),
+};
